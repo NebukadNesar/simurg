@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item
+        android:id="@+id/menu_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/menu_settings"/>
+    <item
+        android:id="@+id/listall_menu"
+        android:title="list all"/>
+    <item
+        android:id="@+id/addnew_menu"
+        android:title="add new"/>
+    <item
+        android:id="@+id/exit"
+        android:title="exit"/>
+    <item
+        android:id="@+id/create_pdf_doc"
+        android:title="Export Pdf"/>
+
+</menu>

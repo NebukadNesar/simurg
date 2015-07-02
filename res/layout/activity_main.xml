@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aaa"
+    tools:context=".MainActivity" 
+    android:scaleType="centerCrop"
+    android:id="@+id/relative_layout">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/custom_layout"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded"
+            android:drawableLeft="@drawable/u"
+            android:hint="Username"
+            android:padding="10dp"
+            android:textColorHint="#FF33B5E5" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+            android:layout_marginTop="-2dp"
+            android:background="@drawable/rounded"
+            android:drawableLeft="@drawable/p"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textColorHint="#FF33B5E5" />
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="253dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="4dp"
+            android:background="@drawable/button_shape"
+            android:text="Go" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aaa"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.45"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="152dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_x="11dp"
+            android:layout_y="7dp"
+            android:gravity="center"
+            android:hint="Simurg"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/editText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:text="Simurg is a simple android application that you can 
+            *save all your user names and passwords in one place.
+            
+            *edit and delete them 
+            
+            *export PDF documant of all your data
+            
+            *Alias is the word that you remember your username or email  easily for the application or web site you use it.
+            
+            "
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold" >
+
+            <requestFocus />
+        </TextView>
+
+    </LinearLayout>
+
+</RelativeLayout>

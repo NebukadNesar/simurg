@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Simurg</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="is_it_first_time_here">is_it_first_time_here</string>
+    <string name="usr">usr</string>
+    <string name="username">username</string>
+
+</resources>

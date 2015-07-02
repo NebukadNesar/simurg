@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/aaa"
+    android:orientation="vertical"
+    android:scaleType="centerCrop" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="New Entry"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_layout"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <EditText
+            android:id="@+id/username_e"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/rounded"
+            android:drawableLeft="@drawable/u"
+            android:hint="username"
+            android:padding="10dp"
+            android:textColorHint="#FF33B5E5" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/password_e"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:drawableLeft="@drawable/p"
+            android:background="@drawable/rounded"
+            android:hint="password"
+            android:padding="10dp"
+            android:textColorHint="#FF33B5E5" />
+
+        <EditText
+            android:id="@+id/alias_e"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:drawableLeft="@drawable/a"
+            android:background="@drawable/rounded"
+            android:hint="alias"
+            android:padding="10dp"
+            android:textColorHint="#FF33B5E5" />
+
+        <Button
+            android:id="@+id/add_new_button"
+            android:layout_width="253dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@drawable/button_shape"
+            android:ems="10"
+            android:text="add" />
+    </LinearLayout>
+
+</LinearLayout>
